@@ -1,0 +1,62 @@
+/* #1 */
+header {
+    border: 1px solid goldenrod; 
+} 
+
+/* #2 */
+#navigation li {
+    float: center;
+    display: inLine; 
+    text-align: center;
+    padding-left: inherit;   
+}
+/* #3 add nav in html */
+
+/* #4 ???? */
+.disabled {
+    color: grey;
+}
+a.disabled {
+    color: purple;
+} 
+/* #5 */
+.active {
+    color: yellow;
+}
+
+/* #6 wrap sections in article tags */
+
+/* #7 catch those missing closing tags bitch! */
+/* #8 */
+#red {
+    color: red;
+}
+
+/* #9 */
+#blue {
+    color: blue;
+}
+ /* #10 */
+ #red + h4 {
+     background-color: red;
+ }
+
+ /* #11 */
+#blue + h4 {
+    background-color: blue;
+}
+
+/* #12 */
+.grandparent > h4 {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+/* #13 */
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+input {
+    font-size: 25px;
+}
